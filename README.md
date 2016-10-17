@@ -3,11 +3,6 @@ A Summernote's plugin for adding new Tags. This plugin gives you the possibility
 
 Proudly develop by [Sébastien Duplessy](https://www.duplessy.eu).
 
-[![Latest Stable Version](https://poser.pugx.org/pepsit36/summernotebundle/v/stable)](https://packagist.org/packages/pepsit36/summernotebundle)
-[![Total Downloads](https://poser.pugx.org/pepsit36/summernotebundle/downloads)](https://packagist.org/packages/pepsit36/summernotebundle)
-[![Latest Unstable Version](https://poser.pugx.org/pepsit36/summernotebundle/v/unstable)](https://packagist.org/packages/pepsit36/summernotebundle)
-[![License](https://poser.pugx.org/pepsit36/summernotebundle/license)](https://packagist.org/packages/pepsit36/summernotebundle)
-
 Requirements
 ------------
 Minimum requirements for this bundle:
