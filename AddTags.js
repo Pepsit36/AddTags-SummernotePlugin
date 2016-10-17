@@ -75,13 +75,13 @@
              * @returns {$.summernote.plugins.addtags|$.summernote.plugins.'addtags'}
              */
             function addToString() {
-                for (var i = 0; i < context.options.addtags.length; i++) {
-                    context.options.addtags[i].value.toString = function () {
+                for (var i = 0; i < context.options.addtags.tags.length; i++) {
+                    context.options.addtags.tags[i].value.toString = function () {
                         return escapeHtml(createTag(this, 0, '|'));
                     }
                 }
 
-                return context.options.addtags;
+                return context.options.addtags.tags;
             }
 
             /**

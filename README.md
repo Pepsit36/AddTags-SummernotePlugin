@@ -23,8 +23,7 @@ Exemple
 * Example to have the tags for use [Prism](http://prismjs.com/).
 ```javascript
 $(function () {
-    $('.summernote').summernote(
-        {
+    $('.summernote').summernote({
             toolbar: [
                 ...
                 [...,[..."addtags"...]],
@@ -32,20 +31,22 @@ $(function () {
             ],
             addtags: {
                 "button": "<i class=\"fa fa-folder-open\" aria-hidden=\"true\"><\/i> Prism",
-                "0": {
-                    "title": "CSS",
-                    "value": [
-                        {"tag":"pre"},
-                        {"tag":"code","class":"language-css"}
-                    ]
-                },
-                "1": {
-                    "title":"Javascript",
-                    "value":[
-                        {"tag":"pre"},
-                        {"tag":"code","class":"language-javascript"}
-                    ]
-                }
+                "tags": [
+                    {
+                        "title": "CSS",
+                        "value": [
+                            {"tag":"pre"},
+                            {"tag":"code","class":"language-css"}
+                        ]
+                    },
+                    {
+                        "title":"Javascript",
+                        "value":[
+                            {"tag":"pre"},
+                            {"tag":"code","class":"language-javascript"}
+                        ]
+                    }
+                ]
             }
         }
     );
